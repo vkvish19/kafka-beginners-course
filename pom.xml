@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <groupId>com.github.vkvish19</groupId>
+    <artifactId>kafka-beginners-course</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+    <modules>
+        <module>kafka-basics</module>
+        <module>kafka-producer-twitter</module>
+        <module>kafka-consumer-elasticsearch</module>
+        <module>kafka-streams-filter-tweets</module>
+    </modules>
+    
+    
+    <properties>
+        <kafka-clients.version>2.3.0</kafka-clients.version>
+        <slf4j-simple.version>1.7.28</slf4j-simple.version>
+        <hbc-core.version>2.2.0</hbc-core.version>
+    </properties>
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

@@ -1,0 +1,8 @@
+kafka/tutorial1/producers/ProducerDemoWithCallback.class
+kafka/tutorial1/producers/ProducerDemo.class
+kafka/tutorial1/consumers/ConsumerDemoWithThread.class
+kafka/tutorial1/consumers/ConsumerDemoAssignSeek.class
+kafka/tutorial1/consumers/ConsumerDemo.class
+kafka/tutorial1/consumers/ConsumerDemoWithThread$ConsumerRunnable.class
+kafka/tutorial1/producers/ProducerDemoKeys.class
+kafka/tutorial1/consumers/ConsumerDemoGroups.class
